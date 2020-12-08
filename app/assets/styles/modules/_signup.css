@@ -1,0 +1,51 @@
+.signUp {
+    background-color: white;
+    border: 1px solid black;
+    width: 200px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 1px;
+    border-radius: 30px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lora', serif;
+    line-height: 2rem;
+
+    &--title {
+        font-size: 1.5rem;
+    }
+
+
+
+
+    @mixin atSmaller {
+        line-height: 1.2rem;
+        height: 230px;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    @mixin atMedium {
+        line-height: 1.5rem;
+        padding-bottom: 50px;
+        padding-top: 10px;
+        height: 250px;
+        
+    }
+
+    @mixin atLarge {
+        line-height: 3rem;
+        padding-bottom: 50px;
+        padding-top: 10px;
+        height: 340px;
+        
+        
+    }
+    
+
+   
+
+
+}

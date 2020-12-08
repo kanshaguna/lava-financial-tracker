@@ -1,0 +1,17 @@
+.leftPanel {
+        float: left;
+
+    
+        @mixin atLarge {
+            height: 100vh;
+  
+            
+            padding-left: 110px;
+            padding-right: 110px;
+        
+            background-image: linear-gradient(to bottom,#FC5839, #FC9239);
+            
+        }
+    
+    
+}

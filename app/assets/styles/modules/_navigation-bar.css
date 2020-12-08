@@ -1,0 +1,35 @@
+li {
+    list-style-type: none;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 80%;
+    border-radius: 0 0 0 30px;
+    text-align: end;
+    z-index: 1;
+    float: right;
+    font-family: 'Tenor Sans', sans-serif;
+    font-size: 1.1rem;
+
+    @mixin atSmaller {
+        margin-bottom: 10px;
+        
+    }
+
+    @mixin atMedium {
+        margin-bottom: 50px;
+        
+    }
+
+
+    
+
+
+
+    @mixin atLarge {
+        width: 90%;
+        margin-bottom: 30px;
+        font-size: 1.6rem;
+    }
+}
