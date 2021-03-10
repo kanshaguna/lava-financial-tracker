@@ -1,0 +1,20 @@
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid rgb(211, 209, 209);
+    box-shadow: rgb(170, 169, 169) 2px 2px 2px;
+    width: 200px;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    line-height: 2rem;
+
+    &--placeholderText {
+        font-size: 0.9rem;
+    }
+
+}

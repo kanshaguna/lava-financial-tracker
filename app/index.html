@@ -4,62 +4,44 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <title>Lava Tracker</title>
+        <title>Grow App</title>
         <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
-            rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <div class="background">
-            <li><strong>Lava Financial Tracker</strong></li>
-            <div class="formSection">
-                <div class="signUp" >
-                    <form name="signUpForm" onsubmit="this.validate()">
-
-                        <p class="signUp--title"><strong>Sign Up</strong></p>
-
-                        <input type="text" name="firstName" placeholder="Firstname"  class="signUp--input" required>
-                        <br />
-
-                        <input type="text" name="lastName"  placeholder="Lastname" required>
-                        
-                        <br />
-
-                        <input type="text" name="Email"  placeholder="Email" required>
-                        <br />
-                        
-                        <input type="password" name="password"  placeholder="Password" required>
-
-                        
-                        <input type="submit" name="submit" value="Submit" class="button button__submitSignUp"/>
-                    </form>
-
-                    
-                </div>
-                <div class="logIn">
-                    <form>
-                        <p class="signUp--title"><strong>Login</strong></p>
-                       
-                        <input type="text"  placeholder="Email">
-                        <br />
-                        <input type="password"  placeholder="Password">
-
-                        <input type="submit" name="submit" value="Login" class="button" />
-                    </form>
-                </div>
+        <div class="page_divider">
+            <div class="page_divider--left">
+                <p class="page_divider--title">Grow</p>
             </div>
+        <div class="page_divider--right">
+            <p class="page_divider--title">Login</p>
+            <form>
+                <div class="form">
+                    <input type="text" placeholder="Email" class="form--placeholderText">
+                    <input type="password"  placeholder="Password" class="form--placeholderText">
+                    <input type="submit" name="submit" value="Login" class="button" />
+                </div>
+            </form>
+            <p class="page_divider--text">Don't have an account?</p>
+            <form>
+                <div class="form">
+                    <input type="text" placeholder="Firstname" class="form--placeholderText">
+                    <input type="text" placeholder="Lastname" class="form--placeholderText">
+                    <input type="text" placeholder="Email" class="form--placeholderText">
+                    <input type="password"  placeholder="Password" class="form--placeholderText">
+                    <input type="submit" name="submit" value="Sign Up" class="button" />
+                </div>
+            </form>
             
+            <div>
+                <p class="page_divider--text">Or Sign in with...</p>
+                <img src="assets/images/google_icon.jpg" class="icon--google">
+            </div>
         </div>
-
-
+        
+        </div>
+        
         <script src="bundled.js"></script>
     </body>
-
-    <footer>
-
-    </footer>
 </html>

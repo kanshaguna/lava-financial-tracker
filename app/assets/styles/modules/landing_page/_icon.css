@@ -1,0 +1,9 @@
+.icon {
+
+
+    &--google {
+        height: 40px;
+        width: auto;
+        border-radius: 20px;
+    }
+}

@@ -1,10 +1,8 @@
 @import "normalize.css";
 @import "./base/mixins.css";
-@import "./modules/_navigation-bar.css";
-@import "./modules/_background.css";
-@import "./modules/_formSection.css";
-@import "./modules/_signup.css";
-@import "./modules/_login.css";
-@import "./modules/_button.css";
-@import "./modules/homepage/_right-panel.css";
-@import "./modules/homepage/_leftPanel.css";
+@import "./base/variables.css";
+@import "./modules/landing_page/_page_divider.css";
+@import './modules/landing_page/_form.css';
+@import './modules/_button.css';
+@import "./modules/landing_page/_icon.css";
+

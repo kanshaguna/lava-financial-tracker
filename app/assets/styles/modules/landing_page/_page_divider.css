@@ -1,0 +1,32 @@
+.page_divider {
+    display:flex;
+    flex-flow: row wrap;
+    text-align: center;
+    height: 100vh;
+    font-family: 'Nunito', sans-serif;
+
+
+    &--left {
+
+        width:40%;
+        height:100%;
+        background-image: linear-gradient(to bottom, $maxBluePurple, $lavenderBlue);
+        color: $magnolia;
+    }
+
+    &--right {
+        width: 60%;
+        height: 100%;
+        background-color: $magnolia;
+        color: $medStateBlue;
+
+    }
+
+    &--title {
+        font-size: 1.5rem;
+    }
+
+    &--text {
+        font-size: 0.8rem;
+    }
+}
